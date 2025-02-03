@@ -1,0 +1,7 @@
+services:
+  pc:
+    build: .
+    ports:
+      - 2227:22
+    volumes:
+      - /home/etorrini/GitHub/MMR/mmr-kria-os:/home/mmr/mmr-kria-os:rw
